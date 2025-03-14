@@ -1,7 +1,9 @@
 # ALBot
 WhatsApp bot for automating booking.  
-The bot responds with irrelevant answers from mistralai/Mistral-7B-Instruct-v0.3.  
+**Current**: The bot responds with irrelevant answers from mistralai/Mistral-7B-Instruct-v0.3.  
 [https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
+  
+**Goal**: Use preset FAQs and booking flows for reliable automation.  
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
