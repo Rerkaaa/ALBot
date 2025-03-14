@@ -1,5 +1,3 @@
-![License](https://img.shields.io/badge/license-BSL--1.1-blue)
-
 # ALBot
 WhatsApp bot for automating bookings for coastal hotels and Airbnb hosts in Albania.  
 This version (v2) uses preset FAQs and a booking flow for reliable automation, replacing the AI-based v1.  
