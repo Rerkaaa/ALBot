@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Database files (if any local SQLite, though you’re using PostgreSQL)
+*.db
+
+# IDE files (optional, if you use one)
+.idea/
+*.swp
