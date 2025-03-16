@@ -19,6 +19,15 @@ class Conversation(Base):
     sender = Column(String)
     message = Column(String)
     response = Column(String)
+    
+# Define the Booking model        
+class Booking(Base):
+    __tablename__ = "bookings"
+    id = Column(Integer, primary_key=True, index=True)
+    sender = Column(String)  # Phone number
+    dates = Column(String)   # e.g., "20-22 June"
+    status = Column(String)  # "pending" or "confirmed"
+    total = Column(Integer)  # Total cost in euros
 
 # Create the tables
 Base.metadata.create_all(engine)
