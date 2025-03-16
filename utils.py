@@ -5,8 +5,6 @@ import logging
 from twilio.rest import Client
 from decouple import config
 
-
-
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
 account_sid = config("TWILIO_ACCOUNT_SID")
